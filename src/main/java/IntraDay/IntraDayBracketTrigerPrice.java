@@ -58,6 +58,15 @@ public class IntraDayBracketTrigerPrice {
 				//Click on Bracket
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary  col-xl-2 text-capitalize css-zytga1' and starts-with(@id,'simple-tab-1')]"))).click();
 		
+
+				//Select Triger Price
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[4]/div[3]/div/div[4]/div/div/div[2]/div/input[@id='allSelect']"))).click();
+
+				
+				//Enter Triger Price
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"simple-tabpanel-1\"]/div/div/div[1]/div[3]/input"))).sendKeys("16");
+				
+				
 				//price
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"simple-tabpanel-1\"]/div/div/div[1]/div[2]/input"))).sendKeys("12");
 

@@ -20,7 +20,7 @@ public class Pocket {
 		WebDriver driver =new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		driver.get("https://dev.pocketful.in/trading");	
+		driver.get("https://dev-trade.pocketful.in/trading/login");	
 		
 		 driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div[2]/div[1]/div/div/button/span")).click();
 		 
@@ -62,15 +62,15 @@ public class Pocket {
 		
 		
 		//calender
-		/*wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[3]/div[3]/div/div[1]/div[1]/img"))).click();
-		Thread.sleep(3000);
+		Thread.sleep(10000);
+
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[3]/div[3]/div/div[1]/div[1]/img"))).click();
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Track all markets on TradingView']"))).click(); 
-		*/
-		
+				
 		
 		// Add to Watch list
-		Thread.sleep(3000);
+		/*Thread.sleep(3000);
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"SearchStock\"]"))).sendKeys("YES BANK LIMITED");
 		Thread.sleep(3000);
@@ -107,6 +107,8 @@ public class Pocket {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"allSelect\"]"))).click();
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"simple-tabpanel-0\"]/div/div/div[4]/div[2]/div[1]"))).click();
+		
+		*/
 
 		
 	}

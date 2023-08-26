@@ -63,6 +63,10 @@ public class LongTerm_GTT_Marketprice {
 		
 				//Increase the Quantity ( Units )
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='simple-tabpanel-2']/div/div/div[1]/div[1]/div/div[2]/img"))).click();
+		
+				
+				//Enter Triger Price
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='simple-tabpanel-2']/div/div/div[1]/div[3]/input"))).sendKeys("12");
 				
 				//Buy Button
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='pkt-font-size-14 pkt-font-weight-500 pkt-line-height-18'  and starts-with(text(),'Buy') ] "))).click();

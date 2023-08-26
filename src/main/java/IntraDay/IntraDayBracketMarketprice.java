@@ -59,7 +59,7 @@ public class IntraDayBracketMarketprice {
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary  col-xl-2 text-capitalize css-zytga1' and starts-with(@id,'simple-tab-1')]"))).click();
 		
 				//price
-				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"simple-tabpanel-1\"]/div/div/div[1]/div[2]/input"))).sendKeys("12");
+				//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"simple-tabpanel-1\"]/div/div/div[1]/div[2]/input"))).sendKeys("12");
 
 				//Target price
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"simple-tabpanel-1\"]/div/div/div[3]/div/div[1]/div/input"))).sendKeys("12");

@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class IntraDayAMOLimitPrice {
+public class LongTerm_AMO_LimitPrice {
 
 	public static void main(String[] args) throws InterruptedException 
 	{

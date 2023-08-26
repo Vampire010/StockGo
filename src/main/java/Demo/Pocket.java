@@ -79,7 +79,7 @@ public class Pocket {
 		
 		// Buy Stock
 		Thread.sleep(3000);
-		WebElement eleStock = driver.findElement(By.xpath("//*[@id=\"search-row-0\"]"));
+		WebElement eleStock = driver.findElement(By.xpath("//*[@id=\"search-row-0]"));
 		Thread.sleep(3000);
 		
 		Actions act = new Actions(driver);

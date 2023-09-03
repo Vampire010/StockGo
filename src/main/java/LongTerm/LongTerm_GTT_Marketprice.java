@@ -58,9 +58,11 @@ public class LongTerm_GTT_Marketprice {
 				//Click on LongTerm
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='pkt-font-size-14 pkt-font-weight-400 pkt-line-height-16 text-center'  and starts-with(text(),'LONGTERM') ] "))).click();
 		
-				//Click on AMO
+				//Click on GTT
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary col-xl-2 text-capitalize css-zytga1' and starts-with(@id,'simple-tab-4')]"))).click();
 		
+				Thread.sleep(10000);
+
 				//Increase the Quantity ( Units )
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='simple-tabpanel-2']/div/div/div[1]/div[1]/div/div[2]/img"))).click();
 		
